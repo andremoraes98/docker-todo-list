@@ -2,13 +2,13 @@ version: '3'
 
 services:
   todoback:
-    build: ./todo-app/back-end/ 
+    image: todobackend
     restart: always
     ports:
      - 3001:3001
 
   todofront:
-    build: ./todo-app/front-end/ 
+    image: todofrontend
     restart: always
     ports:
       - 3000:3000
@@ -18,7 +18,7 @@ services:
       - "todoback"
 
   todotests:
-    build: ./todo-app/tests/
+    image: todotests
     restart: always
     environment:
       - FRONT_HOST=todofront
