@@ -1,6 +1,6 @@
 # Projeto Docker Todo List
 
-<img src="../../images/DOCKER_TODO_LIST.png" alt="Project-logo-1">
+![Project Logo](./DOCKER_TODO_LIST.png)
 
 Este foi o projeto de "Boas vindas" do módulo de back end.
 
